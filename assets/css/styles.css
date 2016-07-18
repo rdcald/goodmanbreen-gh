@@ -186,6 +186,7 @@ a.navItems {
 .pageHeader {
   padding: 2.5% 0 2.5% 0;
 }
+#profile p { font-size: 16px;}
 #emailAddress {
   padding-bottom: 2.5%;
 }
