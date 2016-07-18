@@ -94,22 +94,22 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navCollapse">
                       <ul class="nav navbar-nav">
-                        <li><a class="navItems" href="/index.html">The Firm <span class="sr-only">(current)</span></a></li>
+                        <li><a class="navItems" href="/goodmanbreen-gh/index.html">The Firm <span class="sr-only">(current)</span></a></li>
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle navItems" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                               Attorneys <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
                           </a>
                           <ul class="dropdown-menu">
-                            <li><a href="/dorothybreen.html">Dorothy M. Breen</a></li>
-                            <li><a href="/kennethgoodman.html">Kenneth D. Goodman</a></li>
-                            <li><a href="/amandagoodman.html">Amanda Leigh Goodman</a></li>
+                            <li><a href="/goodmanbreen-gh/dorothybreen.html">Dorothy M. Breen</a></li>
+                            <li><a href="/goodmanbreen-gh/kennethgoodman.html">Kenneth D. Goodman</a></li>
+                            <li><a href="/goodmanbreen-gh/amandagoodman.html">Amanda Leigh Goodman</a></li>
                           </ul>
                         </li>
-                        <li><a class="navItems" href="/estateplanning.html">Estate Planning</a></li>
-                        <li><a class="navItems" href="/estateandtrust.html">Estate and Trust Administration</a></li>
-                        <li><a class="navItems" href="/incometax.html">Income Tax</a></li>
-                        <li><a class="navItems" href="/contact.html">Contact </a></li>
-                        <li><a class="navItems" href="/firmlocation.html">Location</a></li>
+                        <li><a class="navItems" href="/goodmanbreen-gh/estateplanning.html">Estate Planning</a></li>
+                        <li><a class="navItems" href="/goodmanbreen-gh/estateandtrust.html">Estate and Trust Administration</a></li>
+                        <li><a class="navItems" href="/goodmanbreen-gh/incometax.html">Income Tax</a></li>
+                        <li><a class="navItems" href="/goodmanbreen-gh/contact.html">Contact </a></li>
+                        <li><a class="navItems" href="/goodmanbreen-gh/firmlocation.html">Location</a></li>
                       </ul>
                     </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
