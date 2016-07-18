@@ -1,0 +1,268 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+h2 { text-align: center; }
+body {
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  margin-bottom: 60px;
+  background-color: ivory;
+  color: #004d99;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+button.navbar-toggle {
+    text-align: center;
+    margin: 0 auto;
+    float: none !important;
+}
+#navCollapse {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+a.navItems {
+  color: #004d99;
+  font-size:15px;
+  text-transform: uppercase;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+.dropdown-menu a{
+  color: #004d99  !important;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .navbar-header {
+    float: none;
+  }
+  .dropdown-menu a{
+    color: #004d99  !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  .navbar-collapse.collapse.in {
+    display: block!important;
+  }
+  .collapsing {
+    overflow: hidden!important;
+  }
+}
+@media only screen and (max-width: 768px) {
+.navbar .navbar-collapse {
+  text-align: left;
+}
+
+}
+.open a.dropdown-toggle.navItems {
+  background-color: transparent;
+}
+.navbar-collapse ul li a:hover {
+  background-color: transparent;
+  color: #000;
+  text-decoration: underline;
+}
+.navbar-brand {
+  color: #fff;
+}
+.dropdown-toggle {
+  color: #000;
+}
+.icon {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	fill: currentColor;
+}
+.icon-gb2 {
+    margin-top:10px;
+    color: ivory;
+	width: 10em;
+	height: 2em;
+}
+.navbar-collapse ul li a:focus {
+  background-color: transparent;
+}
+.not-transparent {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  background-color: #fff;
+}
+.not-transparent .navbar-collapse ul li a {
+  color: #004d99;
+}
+.not-transparent .navbar-collapse ul li a:hover {
+  background-color: transparent;
+  color: #000;
+  text-decoration: underline;
+}
+.not-transparent .icon-gb2 {
+    color:#004d99;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #004d99;
+}
+.parallax-window {
+  min-height: 600px;
+  background: transparent;
+  background-attachment: scroll;
+}
+.parallax-window #overlay {
+  color: ivory;
+  font-size: 72px;
+  line-height: 525px;
+}
+#overlay {
+    text-align:center;
+}
+.footer {
+    padding-top:15px;
+      border-style: solid;
+  border-width: 1px 0 0 0;
+}
+.open > .dropdown-menu {
+  background-color: #fff;
+}
+#services h2 {
+  text-align: center;
+}
+#services p {
+    font-size:15px;
+}
+#services.row.jumbotron {
+  width: 100%;
+}
+.jumbotron {
+  margin-bottom: 0;
+  background-color: ivory;
+}
+#contact {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#about,
+#contact {
+  background-color: ivory;
+}
+#profile, #location {
+    padding-bottom: 2.5%;
+}
+#about,
+#services,
+#contact,
+.pageHeader {
+  padding: 2.5% 0 2.5% 0;
+}
+#emailAddress {
+  padding-bottom: 2.5%;
+}
+#bio div {
+  border-style: solid;
+  border-width: 0 0 0 5px;
+}
+.page {
+  padding-top: 75px;
+}
+.pageHeader {
+  padding-bottom: 10px;
+}
+.pageHeader h1 {
+
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.fade-in.one {
+  -webkit-animation-delay: .25s;
+  -moz-animation-delay: .25s;
+  animation-delay: .25s;
+}
+.fade-in.two {
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  animation-delay: .5s;
+}
+.fade-in.three {
+  -webkit-animation-delay: .75s;
+  -moz-animation-delay: .75s;
+  animation-delay: .75s;
+}
+.fade-in.four {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+iframe {
+  width: 100%;
+  max-width: 100%;
+}
